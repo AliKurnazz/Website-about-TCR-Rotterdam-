@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_960_720.jpg) no-repeat;
+    background-size: cover;
+  }
+
+.box{
+  width: 450px;
+  background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family:sans-serif;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: white;
+  color: white;
+}
+.box:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+  transition: 0.4s;
+}
+
+nav #check{
+  display: none;
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  text-decoration: none;
+}
+nav li{
+  margin-left: 50px;
+  margin-right: 130px;
+  margin-bottom: 4px;
+  color: rgb(255, 255, 255);
+}
+nav ul li:hover{
+  box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.8);
+  transition: 0.4s;
+}
+img{
+margin-bottom: -100px;
+width: 250px;
+}

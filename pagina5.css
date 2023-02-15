@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+    height: 80px;
+}
+
+
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+nav ul li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    float: right;
+    cursor: pointer;
+    line-height: 80px;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 20px;
+    display: none;
+}
+
+@media (max-width:720px){
+    nav ul{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    nav .checkbtn{
+        display: block;
+    }
+
+    nav #check:checked ~ ul{
+        left: 0;
+    }
+}
+img{
+    opacity: 1;
+    margin-left: -20px;
+    height: 100px;
+}
+
+nav h2{
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.welkom{
+    background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+    opacity: 0.9;
+    width: 700px;
+    color: #fff;
+    height: 300px;
+    margin-top: 80px;
+    float: center;
+    margin-left: 160px;
+    border-radius: 400px;
+}
+
+
+nav div h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 90px;
+    font-size: 50px;
+    
+}
+nav div p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-right: 0px;
+    font-size: 30px;
+}
+h1{
+    color: white;
+    background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+    margin-top: 30px;
+    width: 250px;
+    font-size: bold;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+p{
+    color: white;
+    background: linear-gradient(to right,#232526,#414345,#9E9E9E);
+    width: 400px;
+    margin-top: 30px;
+    height: 350px;
+    font-size: 25px;
+}
+h2{
+    color: white;
+    float: right;
+    margin-right: 200px;
+    margin-top: -30px;
+    font-size: 40px;
+}
+th{
+    color:#fff;
+    
+}
+.p1{
+    padding-top: 15px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.e1{
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -350px;
+}
+.p1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+    transition: 0.4s;
+}
+nav ul li:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.8);
+    transition: 0.4s;
+}
